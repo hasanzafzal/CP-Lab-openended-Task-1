@@ -6,7 +6,7 @@ int main()
 {
     string opt, bookname;
     int nday, fine;
-    cout << "Do you wanna borrow or return the book? chose (B or R)" << endl;
+    cout << "Do you wanna borrow(B) or return(R) the book?" << endl;
     cin >> opt;
 
     if (opt == "B")
